@@ -1,12 +1,13 @@
-//http://codeforces.com/problemset/problem/387/B?fbclid=IwAR1_6Vndn0DzjU8dWTExTnADSVF8Ke2WhHbzP1pRp0PFlV3R9c-UZ3cXfWE
 /*
+http://codeforces.com/problemset/problem/387/B?fbclid=IwAR1_6Vndn0DzjU8dWTExTnADSVF8Ke2WhHbzP1pRp0PFlV3R9c-UZ3cXfWE
+
 Summarize:
 give m problems each problem has bj complexity
 give n problems each problem has ai complexity
 find the minimum number of problem have to prepare of fix
 in m problems to make any aj value are in b array
 
-Caculate complexity : O(m)
+Complexity : O(m)
 
 Solution : use two pointer technique
 we run through b array and a array with some conditions

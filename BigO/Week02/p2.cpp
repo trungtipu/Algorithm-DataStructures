@@ -1,9 +1,11 @@
-//http://codeforces.com/problemset/problem/279/B?fbclid=IwAR1n2VTWHw6LOGZyxIjewXH-eYjKTT9MfP90JdwjFC5eUqMhps3ROO9L1k0
 /*
+http://codeforces.com/problemset/problem/279/B?fbclid=IwAR1n2VTWHw6LOGZyxIjewXH-eYjKTT9MfP90JdwjFC5eUqMhps3ROO9L1k0
+
 Summarize:
 give an array have n elements
 find the longest sub array that the sum is less than or equal to given value t
-Caculate complexity : O(n)
+
+Complexity : O(n)
 
 Solution : we have two variable i and j
 initally, i=j=0 we have a variable sum to caculate sum of the array from i to j
