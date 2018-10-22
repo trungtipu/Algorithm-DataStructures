@@ -1,6 +1,13 @@
 /*
 http://codeforces.com/problemset/problem/61/B?fbclid=IwAR3sRIaH34c8DdTfJaSRiqpJpQwRfNnw7vWyTiajnWQ8YWt_SNXFDLd8obo
 
+Summary:
+Give 3 string
+find out if one string is in the combination of 3 given string
+Complexity: O(n^2)
+Solution:
+generate all the combination of 3 give string
+then check if each string is in that combination
 */
 #include<iostream>
 #include<string>

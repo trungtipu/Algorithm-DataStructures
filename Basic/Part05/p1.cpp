@@ -1,7 +1,15 @@
 /*
 http://codeforces.com/problemset/problem/518/A?fbclid=IwAR1pBr_iiY8tCRJPQwPQ7sw4Fky2P35t-gNbMwujivuZtzmf85_g-kq9LdA
 
+Summary:
+Give 2 strings s,t find string x in codition s<x<t
+Complexity: O(n)
+Solution:
+from the end of s string go through each character of s string then make that character equal
+next character in alphabet then check if s<x<t else keep doing it until go through all the character
+of s string
 */
+
 #include<iostream>
 #include<string>
 
