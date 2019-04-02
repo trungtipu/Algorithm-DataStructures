@@ -13,7 +13,7 @@ Solution : use two pointer technique
 we run through b array and a array with some conditions
 if ai<=bj then we have one problem that satisfy ai complexity
 so we increase i, repeat the work until j=m
-the result when i>=n is 0 because if i>=n mean the last value a[n-1] is satisfy
+the result when i>=n is 0 because if i>=n mean the last value a[n-1] is satisfied
 else the result is (n-1)-i+1 = n-i
 */
 #include<iostream>
